@@ -1,0 +1,18 @@
+GoCryptoPolicyReview — independent bounded Go source-policy implementation.
+Copyright 2026 dhtfish-98. Implementation, tests and documentation assisted by Codex.
+Human authorship, ownership and organizational authorization remain unverified.
+
+Conceptual/reference project: securego/gosec
+Fixed commit: 826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3
+Original selected files state:
+(c) Copyright 2016 Hewlett Packard Enterprise Development LP
+Licensed under Apache License 2.0. Original text retained at third_party/gosec/LICENSE.txt.
+No original gosec runtime is copied, linked or invoked by this analyzer.
+
+Linked dependency golang.org/x/sys v0.48.0:
+Copyright 2009 The Go Authors. BSD-3-Clause, with patent grant.
+Exact notices retained at third_party/x-sys/LICENSE and PATENTS.
+
+Linked Go standard library (measured build go1.26.2):
+Copyright 2009 The Go Authors. BSD-3-Clause, with patent grant.
+Exact notices retained at third_party/go/LICENSE and PATENTS.

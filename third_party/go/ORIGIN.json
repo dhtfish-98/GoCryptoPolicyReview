@@ -1,0 +1,170 @@
+{
+  "name": "Go standard library",
+  "version": "go1.26.2",
+  "commit": "9c8bf0e72a6fb3b415b591b124b59fbb7cf92252",
+  "trust": "Mature standard library. Only listed semantics and license ranges inspected; not an entire toolchain audit.",
+  "files": [
+    {
+      "path": "src/crypto/tls/common.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/crypto/tls/common.go",
+      "sha256": "d2837fbe55a398c7362b3ff8ffe43c06d0832df2305f45f32aeaebadc784486d",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          34,
+          41
+        ],
+        [
+          560,
+          581
+        ],
+        [
+          707,
+          714
+        ],
+        [
+          784,
+          797
+        ],
+        [
+          1163,
+          1180
+        ],
+        [
+          1219,
+          1248
+        ]
+      ],
+      "read_scope": "selected_semantics_or_license_ranges"
+    },
+    {
+      "path": "src/crypto/rsa/rsa.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/crypto/rsa/rsa.go",
+      "sha256": "648123c00aa7c017facd2e5a8d5c207b6fdd3534a088bda64307a633809c14f0",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          281,
+          325
+        ],
+        [
+          340,
+          366
+        ],
+        [
+          405,
+          440
+        ]
+      ],
+      "read_scope": "selected_semantics_or_license_ranges"
+    },
+    {
+      "path": "src/crypto/ecdsa/ecdsa.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/crypto/ecdsa/ecdsa.go",
+      "sha256": "61d06e6707ef461f7e77fcff654430dea46970edd446ac49dc3692dd5b43ac55",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          331,
+          363
+        ]
+      ],
+      "read_scope": "selected_semantics_or_license_ranges"
+    },
+    {
+      "path": "src/crypto/ed25519/ed25519.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/crypto/ed25519/ed25519.go",
+      "sha256": "4f931fb1680d5d7a004e38660ff3d456cc4916c0224a4599f8bafe2d37d262fa",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          140,
+          171
+        ]
+      ],
+      "read_scope": "selected_semantics_or_license_ranges"
+    },
+    {
+      "path": "src/crypto/internal/rand/rand.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/crypto/internal/rand/rand.go",
+      "sha256": "fff364e2098359a767f47041c9e2939ea76850424a36183adfe748c4ce5c6da3",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          1,
+          76
+        ]
+      ],
+      "read_scope": "selected_semantics_or_license_ranges"
+    },
+    {
+      "path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/LICENSE",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          1,
+          27
+        ]
+      ],
+      "read_scope": "selected_semantics_or_license_ranges"
+    },
+    {
+      "path": "PATENTS",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "read_scope": "selected_semantics_or_license_ranges"
+    },
+    {
+      "path": "src/crypto/tls/handshake_client.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/crypto/tls/handshake_client.go",
+      "sha256": "8cd7aa69d597097d91fd92a489aee9fd9dd72cbf0b0f6e08e04c339c997104d6",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          101,
+          117
+        ]
+      ],
+      "read_scope": "selected_semantics_ranges"
+    },
+    {
+      "path": "src/crypto/tls/handshake_server.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/crypto/tls/handshake_server.go",
+      "sha256": "a2d3e0df0b7b8b30657450b9bcab62392f80f15e5bf93dab348c3e9dc7ca82aa",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          248,
+          254
+        ]
+      ],
+      "read_scope": "selected_semantics_ranges"
+    },
+    {
+      "path": "src/internal/godebugs/table.go",
+      "source_url": "https://raw.githubusercontent.com/golang/go/9c8bf0e72a6fb3b415b591b124b59fbb7cf92252/src/internal/godebugs/table.go",
+      "sha256": "aeddbdbe768f0d186e418d4b8acc72cfb0bc73682493c6d3d19ef049560a2a56",
+      "fixed_remote_match": true,
+      "reviewed_ranges": [
+        [
+          32,
+          32
+        ],
+        [
+          64,
+          64
+        ]
+      ],
+      "read_scope": "selected_semantics_ranges"
+    }
+  ]
+}

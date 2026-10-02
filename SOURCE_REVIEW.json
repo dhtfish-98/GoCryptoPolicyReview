@@ -1,0 +1,188 @@
+{
+  "upstream": "securego/gosec",
+  "fixed_commit": "826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3",
+  "license": "Apache-2.0",
+  "scope": "All selected TLS/RSA/random rules, registration/builders/call resolution, CLI/package/SSA/AI side-effect entry path. Selected 18 full files; not whole gosec repository or dependencies.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/LICENSE.txt",
+      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
+      "git_blob_sha1": "1756c7821626446859e1a11c54789a2b38ec79c6",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 154
+    },
+    {
+      "path": "go.mod",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/go.mod",
+      "sha256": "7e5247aa19fbf8559d8da4b9f6a506375e89eb113ea04d68d0b66567afa78060",
+      "git_blob_sha1": "22c4963e41281e3d35d5a4c3a0a0b2997ac3f5f2",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 67
+    },
+    {
+      "path": "cmd/gosec/main.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/cmd/gosec/main.go",
+      "sha256": "1468235ea184a4dcce4195b8233adb278e4fe21d345a3694ad3b9c29f2a08efa",
+      "git_blob_sha1": "386a45eee1b3cab7e859ad7a0e4fa983df5dceb9",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 632
+    },
+    {
+      "path": "analyzer.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/analyzer.go",
+      "sha256": "046aed268b406b5314522b16c44accc31700af0ff23537cb335e2f290b160b84",
+      "git_blob_sha1": "5bb7af64fd0861440869faaa41d7a7a8a3b03cb6",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 1098
+    },
+    {
+      "path": "helpers.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/helpers.go",
+      "sha256": "e9dabdaf662a99b0a1529237948dfcf85f957a47bbca30a3757ee3f37f6d1192",
+      "git_blob_sha1": "4fb552ab23edacfbb685ffbcf42568bfc5f9be68",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 679
+    },
+    {
+      "path": "import_tracker.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/import_tracker.go",
+      "sha256": "6fb8a058c73a507c44c86bec82a170688095c5d8bf669781432f14223e028b4e",
+      "git_blob_sha1": "0d9ebfe16a44890e7397d579a4dde0ca56b93816",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 78
+    },
+    {
+      "path": "call_list.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/call_list.go",
+      "sha256": "74f1c44dc55d62e4c08377ed665c75da853678bbf044c420a16a20b065256568",
+      "git_blob_sha1": "4f2d6c54e49020c909070bc6139e97eae64c54fc",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 118
+    },
+    {
+      "path": "rules/base.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/rules/base.go",
+      "sha256": "0df1a8a7cb11528923121e69ce2690832065d1d92fdabe36163644b4bb6582dd",
+      "git_blob_sha1": "cc882d37c4878bbf9ae682d40373172d6649a690",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 39
+    },
+    {
+      "path": "rules/rulelist.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/rules/rulelist.go",
+      "sha256": "fe71df19cea0780e6bf5c40f8dddcc389ee3fe146487a5f5057d7037f1d300d8",
+      "git_blob_sha1": "431ed0348123e43b4e1b72b698b33ea545a7ca03",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 135
+    },
+    {
+      "path": "rules/tls.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/rules/tls.go",
+      "sha256": "48638991c6e0f5fef1b4df045e8b5bf358d61fe8c3f494ccc8df842463a03c2e",
+      "git_blob_sha1": "6f7cb399e7a09105be2098681b7c58954aa71f41",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 303
+    },
+    {
+      "path": "rules/tls_config.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/rules/tls_config.go",
+      "sha256": "a0db682859b407ca63b94196fa6ed6957edc45467e29a85d8ca459abcadbe573",
+      "git_blob_sha1": "d71bd0da8e57fbebf32b603812296aeccd91d0ed",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 93
+    },
+    {
+      "path": "rules/rand.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/rules/rand.go",
+      "sha256": "fbb4c2917dccd63d8356a7eb9f26a59385f525c44a8c7546f7e79691da1306d1",
+      "git_blob_sha1": "0e46a04a0462b2272415c00ca1451f97fa464f3f",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 39
+    },
+    {
+      "path": "rules/rsa.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/rules/rsa.go",
+      "sha256": "477540bf115e665b1d928efe7ad88abea1e5b5134fa2b6350a46a0c0bfdd13ba",
+      "git_blob_sha1": "b11fc6ca7c97115bfaf93fd548a1324cc292c01f",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 60
+    },
+    {
+      "path": "autofix/ai.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/autofix/ai.go",
+      "sha256": "249ac2994179c22b19b80467826dd09fee84925401e571ce41dafce20ee3572e",
+      "git_blob_sha1": "f1a208ea2df829d7fb847c652110472e9b36f87b",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 99
+    },
+    {
+      "path": "autofix/claude.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/autofix/claude.go",
+      "sha256": "f6da219b990b971ff4f9bbdb1e3dee65232e7b059bab1046b44fc29a89f635fa",
+      "git_blob_sha1": "a143749922481c12592dbd936e77eae88267456b",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 83
+    },
+    {
+      "path": "autofix/openai.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/autofix/openai.go",
+      "sha256": "fd5ada357f2d217f39fb17f6845c0ad383ce07296d805d2e7b78262c86c31f4a",
+      "git_blob_sha1": "bf8448df246a01419093325ded8cac7213b4710d",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 123
+    },
+    {
+      "path": "autofix/gemini.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/autofix/gemini.go",
+      "sha256": "cf0bcd27a2487a5a7b9046c003c43eb0f28391bdfc366151473db08125107443",
+      "git_blob_sha1": "6b5da005baf35280fbb8bd1d5114c7582240c926",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 84
+    },
+    {
+      "path": "autofix/atlas.go",
+      "source_url": "https://raw.githubusercontent.com/securego/gosec/826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3/autofix/atlas.go",
+      "sha256": "d1315b394b527bc324ad76780edc407c113cef8cffc7b3f9f78432b55dd0b21e",
+      "git_blob_sha1": "e09aad089abfff72973922ca9943ba859ddc930a",
+      "fixed_tree_blob_match": true,
+      "fixed_remote_bytes_match": true,
+      "read_scope": "complete_file",
+      "lines": 68
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+name: Verify local source-policy analyzer
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16
+        with:
+          go-version: '1.26.2'
+          cache: false
+      - name: Fetch only this analyzer's pinned build dependency
+        run: |
+          GOTOOLCHAIN=local GOWORK=off go mod download
+          go mod verify
+      - name: Test and vet without module network access
+        run: |
+          make test vet build
+          test -z "$(gofmt -l *.go cmd/gocrypto-policy-review/*.go)"
+      - name: Install this analyzer and exercise all report statuses
+        run: |
+          set -eu
+          consumer_bin="$(mktemp -d)"
+          GOTOOLCHAIN=local GOPROXY=off GOSUMDB=off GOWORK=off GOFLAGS=-mod=readonly CGO_ENABLED=0 GOBIN="$consumer_bin" go install -trimpath -buildvcs=false -ldflags=-buildid= ./cmd/gocrypto-policy-review
+          "$consumer_bin/gocrypto-policy-review" -- examples/declared-pass.go.txt > /tmp/policy-pass.json
+          status=0
+          "$consumer_bin/gocrypto-policy-review" -- examples/policy-fail.go.txt > /tmp/policy-fail.json || status=$?
+          test "$status" -eq 1
+          status=0
+          "$consumer_bin/gocrypto-policy-review" -- examples/default-review.go.txt > /tmp/policy-open.json || status=$?
+          test "$status" -eq 2

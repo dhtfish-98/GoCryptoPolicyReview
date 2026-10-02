@@ -1,0 +1,290 @@
+{
+  "schema": "gocrypto-policy-source-audit/v1",
+  "module": "github.com/dhtfish-98/GoCryptoPolicyReview",
+  "runtime_files": 8,
+  "runtime_lines": 1532,
+  "review": "All new runtime, all tests, CLI, module pins, CI and scope/attribution documentation read. SHA256 inventory excludes this manifest to avoid a circular hash; external engineering report and tar hash bind it. Upstream/dependency read scopes are separately and precisely recorded.",
+  "boundary": "No target Go loading/importing/building/running or network in analyzer; Go stdlib and x/sys trusted separate dependencies, not claimed rewritten; CVP/applicant/human rights OPEN.",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 1485,
+      "sha256": "cba1791da5c737b8485eaf40d91a7396875bfb2ed7d46fec67906b51b8c33074",
+      "lines": 35,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 50,
+      "sha256": "0617ef0f13dc130af7fcba4b4dfc835fde91c5e02e6296eb0ef0565c3f2df406",
+      "lines": 6,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "bytes": 1495,
+      "sha256": "fd20881996efe2deab139a06859c971c8064f868c6e69457f92cc5fe409df2f8",
+      "lines": 25,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 1670,
+      "sha256": "0e0cf61fca66e647a2175b674fcfd02eb9bca894b601ed3b6a581e94b93fa57b",
+      "lines": 27,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 9138,
+      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
+      "lines": 154,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 464,
+      "sha256": "f91dc08f094a3c5de3b07f90371ee24d642676254eb6eb34f21430f9e230bbe7",
+      "lines": 10,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 957,
+      "sha256": "a3d79be2ece2d55d5abee2a6bdcdd8b7af86b95b22db1db9f95b35f9bb04abd1",
+      "lines": 18,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "ORIGIN.md",
+      "bytes": 2120,
+      "sha256": "f6ea1d4a151ce5f653c94f0785551485385ccc9b5cd74d08ff3bab0049e483a9",
+      "lines": 34,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10818,
+      "sha256": "e47a75c8e9fdf58a0adab9f9aa2f7d43f9ab32251a76170e9e96bcf148ba711d",
+      "lines": 154,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "bytes": 8553,
+      "sha256": "59722fde786222e84c9d5846b1ae60b64fd63c5858f417efc549267a751231de",
+      "lines": 188,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3197,
+      "sha256": "198e9a2bf68bc63b18c1a5803e724d14ac554ce48c3dc385645248fe5d6c2f00",
+      "lines": 49,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "cmd/gocrypto-policy-review/main.go",
+      "bytes": 2510,
+      "sha256": "505f6e109381f51c9c86cc069e1d793c1f7d5143ac210e648260938ee010df35",
+      "lines": 77,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "cmd/gocrypto-policy-review/main_test.go",
+      "bytes": 1556,
+      "sha256": "3c513f8be708534591208241013b11eac7a8fe53b686763e44d2da857b3f2bdf",
+      "lines": 46,
+      "kind": "tests",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "constant_reference_test.go",
+      "bytes": 6248,
+      "sha256": "e00c446ffd77d1a3a8f6e4afd14f750e386bdf53e65547b6956f28b0083377f3",
+      "lines": 149,
+      "kind": "tests",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "constants.go",
+      "bytes": 8605,
+      "sha256": "dcf300524a5cd4bff6e3b203780bb5d1f88c6220e4b0e140bcdc267d0f1e9da8",
+      "lines": 346,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "contracts.go",
+      "bytes": 5775,
+      "sha256": "c9f5c73533a1cf3f6ab431e11ee24265061cf9a429c6d24c9b9bb30589621757",
+      "lines": 171,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "examples/declared-pass.go.txt",
+      "bytes": 121,
+      "sha256": "ef84941d74fbfaabf6ce8743ee14f8070a1f2921dd39ad85408e3c07ac3cf323",
+      "lines": 5,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "examples/default-review.go.txt",
+      "bytes": 66,
+      "sha256": "bb1077a989324dcc320f6d91308027befa9e5e07fe8714236f423e50abfca728",
+      "lines": 5,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "examples/policy-fail.go.txt",
+      "bytes": 120,
+      "sha256": "e0919a529afa0c38b9ac494dc381def1ee9cb15e5d690d25c614828fa5742925",
+      "lines": 5,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "go.mod",
+      "bytes": 95,
+      "sha256": "81f5b44cda68bb0e5abc50720d301556f08bcdb1ff6a21fccc7c4ca18308c8b0",
+      "lines": 5,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "go.sum",
+      "bytes": 153,
+      "sha256": "c5aa31f1f2b470a810c0dc6bf49bcc63eb42a100ad9b093ba23a54895bf63f64",
+      "lines": 2,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "input_other.go",
+      "bytes": 211,
+      "sha256": "6b9c6c3c63eb8eaaf0efdc186ed1cf062a4994b4b549c1b046883b53a0250541",
+      "lines": 10,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "input_unix.go",
+      "bytes": 2338,
+      "sha256": "d38b3afca84f94043cf19fed0e114824111c40f717d49848b4c38f634ca882c1",
+      "lines": 86,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "input_unix_test.go",
+      "bytes": 1956,
+      "sha256": "17027c16aaef3ca4f8fbca51dd6580728c4d2dcb99db639d255cd715e08fd697",
+      "lines": 81,
+      "kind": "tests",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "parse.go",
+      "bytes": 9988,
+      "sha256": "271b997d270f7c220eca625dc65e8d67d3c76493f711b47befab028f2aaebcd5",
+      "lines": 384,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "policy.go",
+      "bytes": 7111,
+      "sha256": "c1adc3a07ee6a17d385ba0aadf697ef277a1042a62360a88b66399464d47ca3c",
+      "lines": 234,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "random.go",
+      "bytes": 6564,
+      "sha256": "6f2578d9b0fb472ccae84a9ee5da48c66394c2f266b6271e3241726de4b645b5",
+      "lines": 224,
+      "kind": "runtime",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "review_test.go",
+      "bytes": 16137,
+      "sha256": "6220abb69bf698297c61aaa2d41e3469a086e354198336a7f0f576928826d5fe",
+      "lines": 374,
+      "kind": "tests",
+      "new_source_read_scope": "complete_file"
+    },
+    {
+      "path": "third_party/go/LICENSE",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "lines": 27,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "third_party/go/ORIGIN.json",
+      "bytes": 5118,
+      "sha256": "0e1f61658f2a51e87adb00287d43314ebbfa91574a76c19a5b6a15932a3f3096",
+      "lines": 170,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "third_party/go/PATENTS",
+      "bytes": 1303,
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "lines": 22,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "third_party/gosec/LICENSE.txt",
+      "bytes": 9138,
+      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
+      "lines": 154,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "third_party/x-sys/LICENSE",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "lines": 27,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "third_party/x-sys/ORIGIN.json",
+      "bytes": 2324,
+      "sha256": "cff0b34ba146c51c6bb78fdc33e7ae00012512d987e2e19390b1860d238de41c",
+      "lines": 77,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    },
+    {
+      "path": "third_party/x-sys/PATENTS",
+      "bytes": 1303,
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "lines": 22,
+      "kind": "package_ci_docs_provenance_data",
+      "new_source_read_scope": "artifact_identity_and_attribution"
+    }
+  ]
+}

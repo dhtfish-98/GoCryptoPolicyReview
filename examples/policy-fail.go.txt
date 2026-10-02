@@ -1,0 +1,5 @@
+package example
+
+import "crypto/tls"
+
+var declared = tls.Config{MinVersion: tls.VersionTLS12, InsecureSkipVerify: true}

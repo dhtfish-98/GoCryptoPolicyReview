@@ -1,0 +1,77 @@
+{
+  "name": "golang.org/x/sys",
+  "version": "v0.48.0",
+  "upstream": {
+    "VCS": "git",
+    "URL": "https://go.googlesource.com/sys",
+    "Hash": "613e2570718ecde85c04e69ebd5585c3881c442c",
+    "Ref": "refs/tags/v0.48.0"
+  },
+  "license": "BSD-3-Clause with PATENTS",
+  "zip_sha256": "3a47e06431ba1e24d5b2aca3a7ce31fd13faff34df3e5d8e63f105ff9d0c1786",
+  "go_mod_sha256": "9522f4c9806d1c26586ea80fa56292929bd295865e71981927f52996c6b1c831",
+  "module_sum": "h1:bbX/i/6MgT9BVLM9RT1thmxL04yeTAhbEz4SyadbXoo=",
+  "go_mod_sum": "h1:hNLxWAXmnKAxqDtdwIYC4bM9oQPEecfsnNMuSxOs3og=",
+  "verification": "Native Go download from fresh module/project/cache with no preexisting go.sum and GOSUMDB=sum.golang.org; also separately fetched lookup matching sums. Binary dependency library is not claimed as rewritten or fully audited.",
+  "files": [
+    {
+      "path": "unix/syscall_linux.go",
+      "sha256": "909ee159e5c46c0414180b34992d04e6f7ba43ebedc1957b6b5d7ed1c04a1f4d",
+      "read_scope": "selected_openat_fstat_wrappers_or_full_license",
+      "reviewed_ranges": [
+        [
+          121,
+          130
+        ]
+      ]
+    },
+    {
+      "path": "unix/zsyscall_darwin_arm64.go",
+      "sha256": "630f26d7c5679ac8ac11dfe0e7e1861aec0c801e1ef7ca503030f8e8736469a3",
+      "read_scope": "selected_openat_fstat_wrappers_or_full_license",
+      "reviewed_ranges": [
+        [
+          1811,
+          1843
+        ],
+        [
+          2599,
+          2611
+        ]
+      ]
+    },
+    {
+      "path": "unix/syscall_darwin_libSystem.go",
+      "sha256": "0c327ad9b9845e19b1e097dfb7b569bc9793b670874e24be4a87ac9bd4647557",
+      "read_scope": "selected_openat_fstat_wrappers_or_full_license",
+      "reviewed_ranges": [
+        [
+          1,
+          31
+        ]
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "read_scope": "selected_openat_fstat_wrappers_or_full_license",
+      "reviewed_ranges": [
+        [
+          1,
+          27
+        ]
+      ]
+    },
+    {
+      "path": "PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "read_scope": "selected_openat_fstat_wrappers_or_full_license",
+      "reviewed_ranges": [
+        [
+          1,
+          22
+        ]
+      ]
+    }
+  ]
+}
