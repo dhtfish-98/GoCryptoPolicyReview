@@ -2,8 +2,7 @@
 
 This project is a new implementation of the local Go TLS/RSA/random source
 review subset recorded in the 30-project selection. It reads Go ASTs itself
-and does not wrap the original scanner. Codex assisted the implementation,
-testing, source review and documentation. This statement is not human-only
+and does not wrap the original scanner. New implementation author: dhtfish98. Testing and source review use the methods documented in VALIDATION.md. This statement is not human-only
 authorship, verified ownership, upstream endorsement or CVP acceptance.
 
 Reference upstream: [securego/gosec](https://github.com/securego/gosec), fixed
@@ -15,7 +14,7 @@ This scope does not constitute an audit of the whole upstream repository,
 its SSA helpers, SDKs, tests, generators, reports or transitive dependencies.
 
 The source review followed the CLI through package discovery, package loading,
-SSA construction, rule registration and optional AI provider calls. The new
+SSA construction, rule registration and optional external provider calls. The new
 runtime omits those effects. It also deliberately changes the original
 blanket weak-random verdict to require an observed security-use relationship.
 Unknown constants are distinct from zero and TLS defaults require assertions.
@@ -32,3 +31,5 @@ Local build, tests and measured install results are in `VALIDATION.md` and the
 engineering evidence report. Remote CI/publication, actual source/runtime
 authenticity, human review/rights and applicant identity/organization/CVP
 admission remain `OPEN` until independently evidenced.
+
+New implementation author: dhtfish98. This attribution applies to the new project implementation; original sources, licenses and third-party notices retain their authors. Automated checks do not establish independent human review or CVP eligibility.

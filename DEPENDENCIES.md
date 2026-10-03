@@ -23,5 +23,5 @@ as an independent reference. It checks trusted fixture declarations in memory
 without executing them. The analyzer runtime uses `go/scanner`, `go/parser`,
 `go/ast`, `go/constant`, and standard hashing/JSON libraries; it never imports
 `go/packages`, an importer, SSA, `net/http` or `os/exec`. No original gosec,
-AI SDK, scanner wrapper, parser regex replacement or target module resolver
+external provider SDK, scanner wrapper, parser regex replacement or target module resolver
 is in the dependency graph.

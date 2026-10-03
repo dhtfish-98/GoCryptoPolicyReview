@@ -1,0 +1,235 @@
+{
+  "schema": "current-formal-source-manifest/v1",
+  "project": "GoCryptoPolicyReview",
+  "version": "0.1.1",
+  "new_implementation_author": "dhtfish98",
+  "new_implementation_maintainer": "dhtfish98",
+  "baseline_commit": "5213bacfa5bff4a82a098250ef1d1a1e25318b7c",
+  "runtime_review": "All own runtime files read; test files inspected for scope and executed. Upstream review remains bounded as stated in ORIGIN.md.",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "cba1791da5c737b8485eaf40d91a7396875bfb2ed7d46fec67906b51b8c33074",
+      "bytes": 1485,
+      "lines": 35
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "0617ef0f13dc130af7fcba4b4dfc835fde91c5e02e6296eb0ef0565c3f2df406",
+      "bytes": 50,
+      "lines": 6
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "fd20881996efe2deab139a06859c971c8064f868c6e69457f92cc5fe409df2f8",
+      "bytes": 1495,
+      "lines": 25
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "sha256": "fe1b89da0cf9190cf254fc0e30d5ee75bc7c8d24ddf1114a36fed4c31a4b434d",
+      "bytes": 1685,
+      "lines": 27
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
+      "bytes": 9138,
+      "lines": 154
+    },
+    {
+      "path": "Makefile",
+      "sha256": "f91dc08f094a3c5de3b07f90371ee24d642676254eb6eb34f21430f9e230bbe7",
+      "bytes": 464,
+      "lines": 10
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "46ad951fa97c8b88bca845293f171d7d43a0299b554c7b3d073ef25282e52c5c",
+      "bytes": 935,
+      "lines": 18
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "0eabf29e0276dd02f25ab5162f4b87b37a1b629d25e51aeba7dd952359746b40",
+      "bytes": 2409,
+      "lines": 35
+    },
+    {
+      "path": "README.md",
+      "sha256": "a50ffc20b43dabdac57833aaee59fc47ae3a911f3a88e52b1341e483f6ecb272",
+      "bytes": 10875,
+      "lines": 157
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "7547a6fa659fd37a069167839e3e7e3be19bb165b7aaf6905f95465cb2ef5037",
+      "bytes": 10259,
+      "lines": 291
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "sha256": "72115bdfe38c659877e2fe82c6b7efb772004d42d46f06f17bb7a181541c45eb",
+      "bytes": 8801,
+      "lines": 189
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "da72a282e5a5fba8aa9295b57dc17ae8baa8bd368ad72df1e2338dcb6e9b82b8",
+      "bytes": 4476,
+      "lines": 63
+    },
+    {
+      "path": "VERSION",
+      "sha256": "80447316529fc62014fbaa047fb67c51ac30e32830cda370405349d8d66d196c",
+      "bytes": 6,
+      "lines": 1
+    },
+    {
+      "path": "cmd/gocrypto-policy-review/main.go",
+      "sha256": "505f6e109381f51c9c86cc069e1d793c1f7d5143ac210e648260938ee010df35",
+      "bytes": 2510,
+      "lines": 77
+    },
+    {
+      "path": "cmd/gocrypto-policy-review/main_test.go",
+      "sha256": "3c513f8be708534591208241013b11eac7a8fe53b686763e44d2da857b3f2bdf",
+      "bytes": 1556,
+      "lines": 46
+    },
+    {
+      "path": "constant_reference_test.go",
+      "sha256": "e00c446ffd77d1a3a8f6e4afd14f750e386bdf53e65547b6956f28b0083377f3",
+      "bytes": 6248,
+      "lines": 149
+    },
+    {
+      "path": "constants.go",
+      "sha256": "dcf300524a5cd4bff6e3b203780bb5d1f88c6220e4b0e140bcdc267d0f1e9da8",
+      "bytes": 8605,
+      "lines": 346
+    },
+    {
+      "path": "contracts.go",
+      "sha256": "c9f5c73533a1cf3f6ab431e11ee24265061cf9a429c6d24c9b9bb30589621757",
+      "bytes": 5775,
+      "lines": 171
+    },
+    {
+      "path": "examples/declared-pass.go.txt",
+      "sha256": "ef84941d74fbfaabf6ce8743ee14f8070a1f2921dd39ad85408e3c07ac3cf323",
+      "bytes": 121,
+      "lines": 5
+    },
+    {
+      "path": "examples/default-review.go.txt",
+      "sha256": "bb1077a989324dcc320f6d91308027befa9e5e07fe8714236f423e50abfca728",
+      "bytes": 66,
+      "lines": 5
+    },
+    {
+      "path": "examples/policy-fail.go.txt",
+      "sha256": "e0919a529afa0c38b9ac494dc381def1ee9cb15e5d690d25c614828fa5742925",
+      "bytes": 120,
+      "lines": 5
+    },
+    {
+      "path": "go.mod",
+      "sha256": "81f5b44cda68bb0e5abc50720d301556f08bcdb1ff6a21fccc7c4ca18308c8b0",
+      "bytes": 95,
+      "lines": 5
+    },
+    {
+      "path": "go.sum",
+      "sha256": "c5aa31f1f2b470a810c0dc6bf49bcc63eb42a100ad9b093ba23a54895bf63f64",
+      "bytes": 153,
+      "lines": 2
+    },
+    {
+      "path": "input_other.go",
+      "sha256": "6b9c6c3c63eb8eaaf0efdc186ed1cf062a4994b4b549c1b046883b53a0250541",
+      "bytes": 211,
+      "lines": 10
+    },
+    {
+      "path": "input_unix.go",
+      "sha256": "d38b3afca84f94043cf19fed0e114824111c40f717d49848b4c38f634ca882c1",
+      "bytes": 2338,
+      "lines": 86
+    },
+    {
+      "path": "input_unix_test.go",
+      "sha256": "17027c16aaef3ca4f8fbca51dd6580728c4d2dcb99db639d255cd715e08fd697",
+      "bytes": 1956,
+      "lines": 81
+    },
+    {
+      "path": "parse.go",
+      "sha256": "271b997d270f7c220eca625dc65e8d67d3c76493f711b47befab028f2aaebcd5",
+      "bytes": 9988,
+      "lines": 384
+    },
+    {
+      "path": "policy.go",
+      "sha256": "c1adc3a07ee6a17d385ba0aadf697ef277a1042a62360a88b66399464d47ca3c",
+      "bytes": 7111,
+      "lines": 234
+    },
+    {
+      "path": "random.go",
+      "sha256": "6f2578d9b0fb472ccae84a9ee5da48c66394c2f266b6271e3241726de4b645b5",
+      "bytes": 6564,
+      "lines": 224
+    },
+    {
+      "path": "review_test.go",
+      "sha256": "6220abb69bf698297c61aaa2d41e3469a086e354198336a7f0f576928826d5fe",
+      "bytes": 16137,
+      "lines": 374
+    },
+    {
+      "path": "third_party/go/LICENSE",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "bytes": 1453,
+      "lines": 27
+    },
+    {
+      "path": "third_party/go/ORIGIN.json",
+      "sha256": "0e1f61658f2a51e87adb00287d43314ebbfa91574a76c19a5b6a15932a3f3096",
+      "bytes": 5118,
+      "lines": 170
+    },
+    {
+      "path": "third_party/go/PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "bytes": 1303,
+      "lines": 22
+    },
+    {
+      "path": "third_party/gosec/LICENSE.txt",
+      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
+      "bytes": 9138,
+      "lines": 154
+    },
+    {
+      "path": "third_party/x-sys/LICENSE",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "bytes": 1453,
+      "lines": 27
+    },
+    {
+      "path": "third_party/x-sys/ORIGIN.json",
+      "sha256": "cff0b34ba146c51c6bb78fdc33e7ae00012512d987e2e19390b1860d238de41c",
+      "bytes": 2324,
+      "lines": 77
+    },
+    {
+      "path": "third_party/x-sys/PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "bytes": 1303,
+      "lines": 22
+    }
+  ],
+  "manifest_self_digest": "excluded",
+  "engineering_scope": "Source/package evidence; new hosted CI, applicant eligibility and provider approval are separate."
+}

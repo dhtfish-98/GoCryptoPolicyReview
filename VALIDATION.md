@@ -1,3 +1,17 @@
+# Current delivery validation — 0.1.1
+
+New implementation author and maintainer: dhtfish98. Current source inventory: `SOURCE_REVIEW_MANIFEST.json` (this manifest excludes its own digest). The 2026-10-03 delivery preserves original upstream license and notice bytes; current own runtime differs only in attribution/comments and existing version metadata.
+
+The existing suite has 46 passing test cases in the current source and in a fresh consumer of this version. Package verification checks version/author, artifact RECORD or archive inventories, runtime bytes against the formal source, and retained third-party licenses. Consumer installation uses local frozen dependencies and does not run target inputs. Detailed current artifact hashes and execution receipts are kept in the separate delivery evidence.
+
+The macOS arm64 binary is exercised locally; Linux amd64 is cross-built and inspected, with Linux execution and new-commit hosted CI pending until publication.
+
+These engineering checks do not establish upstream authorship, independent human review, actual safeguards impact or CVP eligibility.
+
+## Historical delivery evidence
+
+The following sections describe the earlier delivery and retain its original versions and checks. They do not validate a later artifact.
+
 # Local engineering validation
 
 Measured environment: Go 1.26.2, Darwin arm64, CGO disabled, local toolchain.
