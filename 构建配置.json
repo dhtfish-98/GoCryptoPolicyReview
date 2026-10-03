@@ -1,0 +1,55 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "GoCryptoPolicyReview",
+  "author": "dhtfish98",
+  "kind": "go",
+  "base_public_commit": "a7bbf1904a990b3d511cbc649bf883f1ffdd2769",
+  "restored_inputs": [
+    {
+      "original": "DEFENSIVE_SCOPE.md",
+      "stored": "项目文档/DEFENSIVE_SCOPE.md",
+      "sha256": "fd20881996efe2deab139a06859c971c8064f868c6e69457f92cc5fe409df2f8"
+    },
+    {
+      "original": "DEPENDENCIES.md",
+      "stored": "项目文档/DEPENDENCIES.md",
+      "sha256": "fe1b89da0cf9190cf254fc0e30d5ee75bc7c8d24ddf1114a36fed4c31a4b434d"
+    },
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78"
+    },
+    {
+      "original": "NOTICE",
+      "stored": "项目文档/NOTICE",
+      "sha256": "5e87bcb60775f3e23d1454c7bb3ef26efbebf537dea2acdec864eeade55dbfa6"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "160ca062807a271a6c684f7808d5bf3d41adc04bd26e44720fe5b59c564c2a85"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "f14364974736534494026fffe84e8a282381ae3317d1c8e8807fdc3180d55d6e"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "eb2bd3890ae93ed674e95d3720b6ea125bf42ddb8d13ce1b5c6ea40d4fecb9b5"
+    },
+    {
+      "original": "third_party/go/LICENSE",
+      "stored": "项目文档/third_party/go/LICENSE",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    },
+    {
+      "original": "third_party/x-sys/LICENSE",
+      "stored": "项目文档/third_party/x-sys/LICENSE",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    }
+  ],
+  "platform_entries": []
+}
