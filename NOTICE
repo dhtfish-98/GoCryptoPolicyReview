@@ -1,18 +1,13 @@
-GoCryptoPolicyReview — independent bounded Go source-policy implementation.
-Copyright 2026 dhtfish98. New implementation author: dhtfish98.
-Human authorship, ownership and organizational authorization remain unverified.
+GoCryptoPolicyReview 0.1.2
+Copyright 2026 dhtfish98. New implementation author and maintainer: dhtfish98.
+New source is licensed under Apache-2.0 in LICENSE.
 
-Conceptual/reference project: securego/gosec
-Fixed commit: 826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3
-Original selected files state:
-(c) Copyright 2016 Hewlett Packard Enterprise Development LP
-Licensed under Apache License 2.0. Original text retained at third_party/gosec/LICENSE.txt.
-No original gosec runtime is copied, linked or invoked by this analyzer.
+gosec is a fixed design reference described in ORIGIN.md; no gosec runtime,
+module or fixture is copied, linked or invoked.
 
-Linked dependency golang.org/x/sys v0.48.0:
-Copyright 2009 The Go Authors. BSD-3-Clause, with patent grant.
-Exact notices retained at third_party/x-sys/LICENSE and PATENTS.
-
-Linked Go standard library (measured build go1.26.2):
-Copyright 2009 The Go Authors. BSD-3-Clause, with patent grant.
-Exact notices retained at third_party/go/LICENSE and PATENTS.
+Linked dependency golang.org/x/sys v0.48.0 and Go 1.26.2 standard library:
+Copyright 2009 The Go Authors. BSD-3-Clause. Complete original licenses and
+additional patent-grant documents remain in third_party/x-sys/ and third_party/go/.
+The offline module ZIP contains original x/sys source and its original notices.
+These dependency components are not rewritten or attributed to dhtfish98.
+No upstream endorsement, unaided human authorship or CVP approval is asserted.

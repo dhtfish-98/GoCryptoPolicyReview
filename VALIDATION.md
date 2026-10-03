@@ -1,3 +1,17 @@
+# Current delivery validation — 0.1.2
+
+New implementation author and maintainer: dhtfish98. This patch removes only source-reference or unbundled-dependency notice copies identified as unused. Licenses/notices associated with redistributed material and specific OPEN applicability questions are retained byte-for-byte. The new own runtime differs only in version metadata; parser and policy behavior are unchanged.
+
+Current source inventory: `SOURCE_REVIEW_MANIFEST.json` (self-digest excluded). Current source, package-install and source-package rebuild checks are recorded in the separate 2026-10-03 license-cleanup delivery evidence. Package inventories, author/version metadata and runtime bytes are checked against this formal source. Installation uses frozen local dependencies; target inputs are never executed. New-commit hosted CI and publication remain pending until the owner publishes this patch.
+
+The macOS arm64 native binary is exercised locally; Linux amd64 is cross-built and inspected, with actual Linux execution pending hosted CI.
+
+Engineering results do not establish human contribution, identity, organization, safeguards impact or CVP admission.
+
+## Historical previous delivery evidence
+
+The remaining text describes earlier versions and their original material inventories. It does not describe or validate this patch.
+
 # Current delivery validation — 0.1.1
 
 New implementation author and maintainer: dhtfish98. Current source inventory: `SOURCE_REVIEW_MANIFEST.json` (this manifest excludes its own digest). The 2026-10-03 delivery preserves original upstream license and notice bytes; current own runtime differs only in attribution/comments and existing version metadata.

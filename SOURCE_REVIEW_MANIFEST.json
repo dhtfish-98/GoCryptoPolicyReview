@@ -1,11 +1,11 @@
 {
   "schema": "current-formal-source-manifest/v1",
   "project": "GoCryptoPolicyReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "new_implementation_author": "dhtfish98",
   "new_implementation_maintainer": "dhtfish98",
-  "baseline_commit": "5213bacfa5bff4a82a098250ef1d1a1e25318b7c",
-  "runtime_review": "All own runtime files read; test files inspected for scope and executed. Upstream review remains bounded as stated in ORIGIN.md.",
+  "baseline_commit": "2e487f6e7d9a01fa882b35ec0a5921c509acaaaf",
+  "runtime_review": "Own runtime unchanged except existing version metadata; current source/package inventories and required notice bytes checked. Upstream read scope remains bounded in ORIGIN.md.",
   "files": [
     {
       "path": ".github/workflows/verify.yml",
@@ -45,20 +45,20 @@
     },
     {
       "path": "NOTICE",
-      "sha256": "46ad951fa97c8b88bca845293f171d7d43a0299b554c7b3d073ef25282e52c5c",
-      "bytes": 935,
-      "lines": 18
+      "sha256": "5e87bcb60775f3e23d1454c7bb3ef26efbebf537dea2acdec864eeade55dbfa6",
+      "bytes": 752,
+      "lines": 13
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "0eabf29e0276dd02f25ab5162f4b87b37a1b629d25e51aeba7dd952359746b40",
-      "bytes": 2409,
-      "lines": 35
+      "sha256": "160ca062807a271a6c684f7808d5bf3d41adc04bd26e44720fe5b59c564c2a85",
+      "bytes": 2977,
+      "lines": 37
     },
     {
       "path": "README.md",
-      "sha256": "a50ffc20b43dabdac57833aaee59fc47ae3a911f3a88e52b1341e483f6ecb272",
-      "bytes": 10875,
+      "sha256": "e9b893c4791c72bb7daaf4e2c9931fae0cc17f6ba44ba2e827f52aa26a4106a0",
+      "bytes": 10939,
       "lines": 157
     },
     {
@@ -75,13 +75,13 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "da72a282e5a5fba8aa9295b57dc17ae8baa8bd368ad72df1e2338dcb6e9b82b8",
-      "bytes": 4476,
-      "lines": 63
+      "sha256": "eb2bd3890ae93ed674e95d3720b6ea125bf42ddb8d13ce1b5c6ea40d4fecb9b5",
+      "bytes": 5823,
+      "lines": 77
     },
     {
       "path": "VERSION",
-      "sha256": "80447316529fc62014fbaa047fb67c51ac30e32830cda370405349d8d66d196c",
+      "sha256": "297b50f08386d3521f8fdaf2f78eb8d9d0acdf452d2e61596905fba37208c792",
       "bytes": 6,
       "lines": 1
     },
@@ -206,12 +206,6 @@
       "lines": 22
     },
     {
-      "path": "third_party/gosec/LICENSE.txt",
-      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
-      "bytes": 9138,
-      "lines": 154
-    },
-    {
       "path": "third_party/x-sys/LICENSE",
       "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
       "bytes": 1453,
@@ -231,5 +225,5 @@
     }
   ],
   "manifest_self_digest": "excluded",
-  "engineering_scope": "Source/package evidence; new hosted CI, applicant eligibility and provider approval are separate."
+  "engineering_scope": "Current local source/package evidence; exact-commit hosted CI and applicant/CVP approval are separate."
 }

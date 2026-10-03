@@ -1,7 +1,7 @@
 # GoCryptoPolicyReview
 
 
-New implementation author: **dhtfish98**. Current project version: **0.1.1**.
+New implementation author: **dhtfish98**. Current project version: **0.1.2**.
 
 Offline, bounded review of explicitly supplied Go source bytes. A new analyzer
 uses Go's real scanner/parser, lexical AST bindings and `go/constant`; it does
@@ -149,9 +149,9 @@ not the complete gosec scanner, SSA analyzer, cipher policy or whole-repository
 rewrite. No upstream runtime is vendored or invoked. Mature Go standard
 library code and the pinned Unix syscall library are separate dependencies.
 
-New implementation author: dhtfish98. Original license
-and Hewlett Packard attribution are retained in `NOTICE`, `ORIGIN.md` and
-`third_party`. Human ownership/review, applicant identity/organization, CVP
+New implementation author: dhtfish98. Original Go/x-sys license and patent-grant
+notices accompany the actual linked and offline dependency materials in
+`third_party`. gosec is a fixed design reference only. Human ownership/review, applicant identity/organization, CVP
 admission, remote publication and remote CI are not established by this local
 artifact. Defensive topic fit is conditional on authorized source review.
 No project count or passing test implies application approval.

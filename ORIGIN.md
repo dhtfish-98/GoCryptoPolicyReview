@@ -6,9 +6,7 @@ and does not wrap the original scanner. New implementation author: dhtfish98. Te
 authorship, verified ownership, upstream endorsement or CVP acceptance.
 
 Reference upstream: [securego/gosec](https://github.com/securego/gosec), fixed
-commit `826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3`. Apache-2.0 license text and
-the selected-file Hewlett Packard Enterprise Development LP attribution are
-retained. `SOURCE_REVIEW.json` records SHA-256/Git blob hashes and matching
+commit `826f6f4fd18b7b0cf0a76b2df1994b3eb90da8f3`. This is a design reference; no original gosec runtime, module, fixture or document excerpt is distributed. The unused gosec license copy is omitted; new source independently uses Apache-2.0. `SOURCE_REVIEW.json` records SHA-256/Git blob hashes and matching
 fixed-commit remote bytes for all 18 fully read selected files (3952 lines).
 This scope does not constitute an audit of the whole upstream repository,
 its SSA helpers, SDKs, tests, generators, reports or transitive dependencies.
@@ -33,3 +31,7 @@ authenticity, human review/rights and applicant identity/organization/CVP
 admission remain `OPEN` until independently evidenced.
 
 New implementation author: dhtfish98. This attribution applies to the new project implementation; original sources, licenses and third-party notices retain their authors. Automated checks do not establish independent human review or CVP eligibility.
+
+## Current distribution and reference boundary
+
+New analyzer source and native executables are distributed. Executables contain Go standard-library and x/sys code; the offline bundle contains exact x/sys source. Their original licenses and patent-grant documents remain. gosec is reference-only. New implementation author and maintainer: dhtfish98. Source identities and bounded research facts above remain provenance, not an assertion that those authors wrote or endorsed the new runtime.
