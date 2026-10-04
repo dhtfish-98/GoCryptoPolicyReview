@@ -62,13 +62,13 @@
       "lines": 159
     },
     {
-      "path": "SOURCE_AUDIT.json",
+      "path": "项目文档/SOURCE_AUDIT.json",
       "sha256": "7547a6fa659fd37a069167839e3e7e3be19bb165b7aaf6905f95465cb2ef5037",
       "bytes": 10259,
       "lines": 291
     },
     {
-      "path": "SOURCE_REVIEW.json",
+      "path": "项目文档/SOURCE_REVIEW.json",
       "sha256": "72115bdfe38c659877e2fe82c6b7efb772004d42d46f06f17bb7a181541c45eb",
       "bytes": 8801,
       "lines": 189
@@ -194,7 +194,7 @@
       "lines": 27
     },
     {
-      "path": "third_party/go/ORIGIN.json",
+      "path": "项目文档/third_party/go/ORIGIN.json",
       "sha256": "0e1f61658f2a51e87adb00287d43314ebbfa91574a76c19a5b6a15932a3f3096",
       "bytes": 5118,
       "lines": 170
@@ -212,7 +212,7 @@
       "lines": 27
     },
     {
-      "path": "third_party/x-sys/ORIGIN.json",
+      "path": "项目文档/third_party/x-sys/ORIGIN.json",
       "sha256": "cff0b34ba146c51c6bb78fdc33e7ae00012512d987e2e19390b1860d238de41c",
       "bytes": 2324,
       "lines": 77
