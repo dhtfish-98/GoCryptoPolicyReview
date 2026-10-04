@@ -20,64 +20,16 @@
       "lines": 13
     },
     {
-      "path": "DEFENSIVE_SCOPE.md",
-      "sha256": "fd20881996efe2deab139a06859c971c8064f868c6e69457f92cc5fe409df2f8",
-      "bytes": 1495,
-      "lines": 25
-    },
-    {
-      "path": "DEPENDENCIES.md",
-      "sha256": "fe1b89da0cf9190cf254fc0e30d5ee75bc7c8d24ddf1114a36fed4c31a4b434d",
-      "bytes": 1685,
-      "lines": 27
-    },
-    {
-      "path": "LICENSE",
-      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
-      "bytes": 9138,
-      "lines": 154
+      "path": "Build/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+      "bytes": 14,
+      "lines": 2
     },
     {
       "path": "Makefile",
       "sha256": "f91dc08f094a3c5de3b07f90371ee24d642676254eb6eb34f21430f9e230bbe7",
       "bytes": 464,
       "lines": 10
-    },
-    {
-      "path": "NOTICE",
-      "sha256": "0010b098294f6c3551a0a81d9fe63ffa68d9a9b9371f9959351c02e0f51c3d30",
-      "bytes": 830,
-      "lines": 14
-    },
-    {
-      "path": "ORIGIN.md",
-      "sha256": "160ca062807a271a6c684f7808d5bf3d41adc04bd26e44720fe5b59c564c2a85",
-      "bytes": 2977,
-      "lines": 37
-    },
-    {
-      "path": "README.md",
-      "sha256": "f14364974736534494026fffe84e8a282381ae3317d1c8e8807fdc3180d55d6e",
-      "bytes": 11294,
-      "lines": 159
-    },
-    {
-      "path": "项目文档/SOURCE_AUDIT.json",
-      "sha256": "7547a6fa659fd37a069167839e3e7e3be19bb165b7aaf6905f95465cb2ef5037",
-      "bytes": 10259,
-      "lines": 291
-    },
-    {
-      "path": "项目文档/SOURCE_REVIEW.json",
-      "sha256": "72115bdfe38c659877e2fe82c6b7efb772004d42d46f06f17bb7a181541c45eb",
-      "bytes": 8801,
-      "lines": 189
-    },
-    {
-      "path": "VALIDATION.md",
-      "sha256": "eb2bd3890ae93ed674e95d3720b6ea125bf42ddb8d13ce1b5c6ea40d4fecb9b5",
-      "bytes": 5823,
-      "lines": 77
     },
     {
       "path": "VERSION",
@@ -188,7 +140,73 @@
       "lines": 374
     },
     {
-      "path": "third_party/go/LICENSE",
+      "path": "构建.py",
+      "sha256": "248c7594ad67a2d9380273b1dd68986253a2d9bac75595f1f6e3647720335c8e",
+      "bytes": 6787,
+      "lines": 129
+    },
+    {
+      "path": "构建配置.json",
+      "sha256": "a4f1138ec3d8563fd13add99075668b46cb095e6eb432496f80280b7aedbab6d",
+      "bytes": 2244,
+      "lines": 65
+    },
+    {
+      "path": "项目文档/DEFENSIVE_SCOPE.md",
+      "sha256": "fd20881996efe2deab139a06859c971c8064f868c6e69457f92cc5fe409df2f8",
+      "bytes": 1495,
+      "lines": 25
+    },
+    {
+      "path": "项目文档/DEPENDENCIES.md",
+      "sha256": "fe1b89da0cf9190cf254fc0e30d5ee75bc7c8d24ddf1114a36fed4c31a4b434d",
+      "bytes": 1685,
+      "lines": 27
+    },
+    {
+      "path": "项目文档/LICENSE",
+      "sha256": "2be0a81f30d2b73cb3b5182b969175245042158735fcc8af133929212c772e78",
+      "bytes": 9138,
+      "lines": 154
+    },
+    {
+      "path": "项目文档/NOTICE",
+      "sha256": "0010b098294f6c3551a0a81d9fe63ffa68d9a9b9371f9959351c02e0f51c3d30",
+      "bytes": 830,
+      "lines": 14
+    },
+    {
+      "path": "项目文档/ORIGIN.md",
+      "sha256": "160ca062807a271a6c684f7808d5bf3d41adc04bd26e44720fe5b59c564c2a85",
+      "bytes": 2977,
+      "lines": 37
+    },
+    {
+      "path": "项目文档/README.md",
+      "sha256": "f14364974736534494026fffe84e8a282381ae3317d1c8e8807fdc3180d55d6e",
+      "bytes": 11294,
+      "lines": 159
+    },
+    {
+      "path": "项目文档/SOURCE_AUDIT.json",
+      "sha256": "7547a6fa659fd37a069167839e3e7e3be19bb165b7aaf6905f95465cb2ef5037",
+      "bytes": 10259,
+      "lines": 291
+    },
+    {
+      "path": "项目文档/SOURCE_REVIEW.json",
+      "sha256": "72115bdfe38c659877e2fe82c6b7efb772004d42d46f06f17bb7a181541c45eb",
+      "bytes": 8801,
+      "lines": 189
+    },
+    {
+      "path": "项目文档/VALIDATION.md",
+      "sha256": "eb2bd3890ae93ed674e95d3720b6ea125bf42ddb8d13ce1b5c6ea40d4fecb9b5",
+      "bytes": 5823,
+      "lines": 77
+    },
+    {
+      "path": "项目文档/third_party/go/LICENSE",
       "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
       "bytes": 1453,
       "lines": 27
@@ -200,13 +218,13 @@
       "lines": 170
     },
     {
-      "path": "third_party/go/PATENTS",
+      "path": "项目文档/third_party/go/PATENTS",
       "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
       "bytes": 1303,
       "lines": 22
     },
     {
-      "path": "third_party/x-sys/LICENSE",
+      "path": "项目文档/third_party/x-sys/LICENSE",
       "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
       "bytes": 1453,
       "lines": 27
@@ -218,10 +236,16 @@
       "lines": 77
     },
     {
-      "path": "third_party/x-sys/PATENTS",
+      "path": "项目文档/third_party/x-sys/PATENTS",
       "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
       "bytes": 1303,
       "lines": 22
+    },
+    {
+      "path": "项目文档/目录与构建.md",
+      "sha256": "3f7599e7a43cd47108377905ec46e6894317d8e574e3f865157e9fc9bc6d7c72",
+      "bytes": 816,
+      "lines": 7
     }
   ],
   "manifest_self_digest": "excluded",
