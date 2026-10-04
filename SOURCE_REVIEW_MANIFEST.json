@@ -9,15 +9,15 @@
   "files": [
     {
       "path": ".github/workflows/verify.yml",
-      "sha256": "cba1791da5c737b8485eaf40d91a7396875bfb2ed7d46fec67906b51b8c33074",
-      "bytes": 1485,
-      "lines": 35
+      "sha256": "4b47d3a47bd3dafd91dee6ff17337238b1ec77ca2467b02fe0d05aae7e67f3ed",
+      "bytes": 2821,
+      "lines": 59
     },
     {
       "path": ".gitignore",
-      "sha256": "0617ef0f13dc130af7fcba4b4dfc835fde91c5e02e6296eb0ef0565c3f2df406",
-      "bytes": 50,
-      "lines": 6
+      "sha256": "e9bde2a3f1673fa6d0c1f819daed86db41f1ec4b0e8c1fe5d5c9ed4579deaf72",
+      "bytes": 164,
+      "lines": 13
     },
     {
       "path": "DEFENSIVE_SCOPE.md",
@@ -45,9 +45,9 @@
     },
     {
       "path": "NOTICE",
-      "sha256": "5e87bcb60775f3e23d1454c7bb3ef26efbebf537dea2acdec864eeade55dbfa6",
-      "bytes": 752,
-      "lines": 13
+      "sha256": "0010b098294f6c3551a0a81d9fe63ffa68d9a9b9371f9959351c02e0f51c3d30",
+      "bytes": 830,
+      "lines": 14
     },
     {
       "path": "ORIGIN.md",
@@ -57,9 +57,9 @@
     },
     {
       "path": "README.md",
-      "sha256": "e9b893c4791c72bb7daaf4e2c9931fae0cc17f6ba44ba2e827f52aa26a4106a0",
-      "bytes": 10939,
-      "lines": 157
+      "sha256": "f14364974736534494026fffe84e8a282381ae3317d1c8e8807fdc3180d55d6e",
+      "bytes": 11294,
+      "lines": 159
     },
     {
       "path": "SOURCE_AUDIT.json",
@@ -225,5 +225,27 @@
     }
   ],
   "manifest_self_digest": "excluded",
-  "engineering_scope": "Current local source/package evidence; exact-commit hosted CI and applicant/CVP approval are separate."
+  "engineering_scope": "Current local source/package evidence; exact-commit hosted CI and applicant/CVP approval are separate.",
+  "layout_inventory": {
+    "checked_at_utc": "2026-10-04T05:47:16.943381+00:00",
+    "base_public_commit": "aed3cca5fd9f95288c476bb37f28f1a8093d3461",
+    "scope": "The same 36 legacy logical input paths are resolved through 构建配置.json. Only path/inventory metadata and legal-document placement were checked; no fresh functional/security source audit is asserted. Existing runtime_review and upstream origin scope retain their historical meaning.",
+    "previous_manifest_sha256": "8e3fc13ea88db6a1f55a8c50cebe7248d099d304c5cae0a5f20b07b79d07b368",
+    "patent_document_moves": [
+      {
+        "old": "third_party/go/PATENTS",
+        "new": "项目文档/third_party/go/PATENTS",
+        "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+        "bytes": 1303
+      },
+      {
+        "old": "third_party/x-sys/PATENTS",
+        "new": "项目文档/third_party/x-sys/PATENTS",
+        "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+        "bytes": 1303
+      }
+    ],
+    "unchanged_runtime_and_tests": true,
+    "version_changed": false
+  }
 }

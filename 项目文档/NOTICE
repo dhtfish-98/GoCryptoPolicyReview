@@ -7,7 +7,8 @@ module or fixture is copied, linked or invoked.
 
 Linked dependency golang.org/x/sys v0.48.0 and Go 1.26.2 standard library:
 Copyright 2009 The Go Authors. BSD-3-Clause. Complete original licenses and
-additional patent-grant documents remain in third_party/x-sys/ and third_party/go/.
+additional patent-grant documents are preserved in 项目文档/third_party/x-sys/ and
+项目文档/third_party/go/. Build staging restores their original paths.
 The offline module ZIP contains original x/sys source and its original notices.
 These dependency components are not rewritten or attributed to dhtfish98.
 No upstream endorsement, unaided human authorship or CVP approval is asserted.

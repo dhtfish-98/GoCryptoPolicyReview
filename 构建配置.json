@@ -23,7 +23,7 @@
     {
       "original": "NOTICE",
       "stored": "项目文档/NOTICE",
-      "sha256": "5e87bcb60775f3e23d1454c7bb3ef26efbebf537dea2acdec864eeade55dbfa6"
+      "sha256": "0010b098294f6c3551a0a81d9fe63ffa68d9a9b9371f9959351c02e0f51c3d30"
     },
     {
       "original": "ORIGIN.md",
@@ -46,9 +46,19 @@
       "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
     },
     {
+      "original": "third_party/go/PATENTS",
+      "stored": "项目文档/third_party/go/PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
+    },
+    {
       "original": "third_party/x-sys/LICENSE",
       "stored": "项目文档/third_party/x-sys/LICENSE",
       "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    },
+    {
+      "original": "third_party/x-sys/PATENTS",
+      "stored": "项目文档/third_party/x-sys/PATENTS",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc"
     }
   ],
   "platform_entries": []
