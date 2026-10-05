@@ -1,16 +1,29 @@
-# Current delivery validation — 0.1.2
+# Current delivery validation — 0.1.3
 
-New implementation author and maintainer: dhtfish98. This patch removes only source-reference or unbundled-dependency notice copies identified as unused. Licenses/notices associated with redistributed material and specific OPEN applicability questions are retained byte-for-byte. The new own runtime differs only in version metadata; parser and policy behavior are unchanged.
+New implementation author and maintainer: dhtfish98. This release records the
+centralized documentation and Build staging layout, updates version and
+manifest metadata, and corrects the distribution description. The analyzer's
+Go runtime and tests are unchanged from v0.1.2. Original Go/x-sys notices and
+patent-grant documents remain in the source package.
 
-Current source inventory: `SOURCE_REVIEW_MANIFEST.json` (self-digest excluded). Current source, package-install and source-package rebuild checks are recorded in the separate 2026-10-03 license-cleanup delivery evidence. Package inventories, author/version metadata and runtime bytes are checked against this formal source. Installation uses frozen local dependencies; target inputs are never executed. New-commit hosted CI and publication remain pending until the owner publishes this patch.
+Current source inventory: `SOURCE_REVIEW_MANIFEST.json` (self-digest excluded).
+The source-only v0.1.3 archive, staged Build input, local test/vet/build and
+installed CLI must be checked against this version's exact tag and receipt.
+The v0.1.2 release previously published native executables and an offline
+dependency archive; those are historical artifacts and are not included in
+v0.1.3. Target inputs are never executed by the analyzer.
 
-The macOS arm64 native binary is exercised locally; Linux amd64 is cross-built and inspected, with actual Linux execution pending hosted CI.
+The local macOS arm64 binary built from current source is exercised by the
+installed-consumer check. Linux execution is checked by the hosted CI job for
+the exact commit and tag; local macOS results alone do not establish it.
 
 Engineering results do not establish human contribution, identity, organization, safeguards impact or CVP admission.
 
 ## Historical previous delivery evidence
 
-The remaining text describes earlier versions and their original material inventories. It does not describe or validate this patch.
+The remaining text describes earlier versions and their original material
+inventories. Statements that hosted CI or publication were pending reflected
+their historical writing time; they do not describe current release status.
 
 # Current delivery validation — 0.1.1
 

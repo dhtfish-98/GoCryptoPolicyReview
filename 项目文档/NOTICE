@@ -1,14 +1,16 @@
-GoCryptoPolicyReview 0.1.2
+GoCryptoPolicyReview 0.1.3
 Copyright 2026 dhtfish98. New implementation author and maintainer: dhtfish98.
 New source is licensed under Apache-2.0 in LICENSE.
 
 gosec is a fixed design reference described in ORIGIN.md; no gosec runtime,
 module or fixture is copied, linked or invoked.
 
-Linked dependency golang.org/x/sys v0.48.0 and Go 1.26.2 standard library:
+GoCryptoPolicyReview builds using golang.org/x/sys v0.48.0 and the Go 1.26.2
+standard library. Any binaries built from this source include these components:
 Copyright 2009 The Go Authors. BSD-3-Clause. Complete original licenses and
 additional patent-grant documents are preserved in 项目文档/third_party/x-sys/ and
 项目文档/third_party/go/. Build staging restores their original paths.
-The offline module ZIP contains original x/sys source and its original notices.
+The historical v0.1.2 offline module ZIP contains original x/sys source and
+its original notices. The v0.1.3 release distributes source only.
 These dependency components are not rewritten or attributed to dhtfish98.
 No upstream endorsement, unaided human authorship or CVP approval is asserted.

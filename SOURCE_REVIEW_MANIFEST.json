@@ -1,11 +1,11 @@
 {
   "schema": "current-formal-source-manifest/v1",
   "project": "GoCryptoPolicyReview",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "new_implementation_author": "dhtfish98",
   "new_implementation_maintainer": "dhtfish98",
   "baseline_commit": "2e487f6e7d9a01fa882b35ec0a5921c509acaaaf",
-  "runtime_review": "Own runtime unchanged except existing version metadata; current source/package inventories and required notice bytes checked. Upstream read scope remains bounded in ORIGIN.md.",
+  "runtime_review": "Go analyzer runtime and tests unchanged from v0.1.2; release updates version, centralized documentation, Build staging and exact source/package inventory. Pinned gosec reference and Go/x-sys rights retain their documented boundaries.",
   "files": [
     {
       "path": ".github/workflows/verify.yml",
@@ -33,7 +33,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "297b50f08386d3521f8fdaf2f78eb8d9d0acdf452d2e61596905fba37208c792",
+      "sha256": "2d2454ef0edeb462a6ce8b25d387aaa74df08093d5cea0428a10ce55510c6326",
       "bytes": 6,
       "lines": 1
     },
@@ -147,7 +147,7 @@
     },
     {
       "path": "构建配置.json",
-      "sha256": "a4f1138ec3d8563fd13add99075668b46cb095e6eb432496f80280b7aedbab6d",
+      "sha256": "036c824fc37446f9d3af35295362cac6c5e30f697fe34a43e353f8486eb70c4f",
       "bytes": 2244,
       "lines": 65
     },
@@ -171,21 +171,21 @@
     },
     {
       "path": "项目文档/NOTICE",
-      "sha256": "0010b098294f6c3551a0a81d9fe63ffa68d9a9b9371f9959351c02e0f51c3d30",
-      "bytes": 830,
-      "lines": 14
+      "sha256": "02536b0d8c05506a1d41bbdaa706aaa775a89b186e87bb96139ec2bc199df9ca",
+      "bytes": 974,
+      "lines": 16
     },
     {
       "path": "项目文档/ORIGIN.md",
-      "sha256": "160ca062807a271a6c684f7808d5bf3d41adc04bd26e44720fe5b59c564c2a85",
-      "bytes": 2977,
-      "lines": 37
+      "sha256": "97ff65ab2980e49d1ce474e21ad9ec5fb7c5b0baf6b635e090e0f4a371342b9b",
+      "bytes": 3232,
+      "lines": 46
     },
     {
       "path": "项目文档/README.md",
-      "sha256": "f14364974736534494026fffe84e8a282381ae3317d1c8e8807fdc3180d55d6e",
-      "bytes": 11294,
-      "lines": 159
+      "sha256": "ba5c01e93b8b3613dad73ad8201c4d0be45fd9cf14e9c4b570ce6a70d5c0003c",
+      "bytes": 11493,
+      "lines": 163
     },
     {
       "path": "项目文档/SOURCE_AUDIT.json",
@@ -201,9 +201,9 @@
     },
     {
       "path": "项目文档/VALIDATION.md",
-      "sha256": "eb2bd3890ae93ed674e95d3720b6ea125bf42ddb8d13ce1b5c6ea40d4fecb9b5",
-      "bytes": 5823,
-      "lines": 77
+      "sha256": "e7e4dceb6d64b277140e1ca8e1f022c83361fda2af4255a3cec9607b8d6d22f7",
+      "bytes": 5932,
+      "lines": 90
     },
     {
       "path": "项目文档/third_party/go/LICENSE",
@@ -249,7 +249,7 @@
     }
   ],
   "manifest_self_digest": "excluded",
-  "engineering_scope": "Current local source/package evidence; exact-commit hosted CI and applicant/CVP approval are separate.",
+  "engineering_scope": "Current source-only release; exact-commit CI, source archive and installed consumer require separate matching receipts. Applicant identity and CVP approval remain OPEN.",
   "layout_inventory": {
     "checked_at_utc": "2026-10-04T05:47:16.943381+00:00",
     "base_public_commit": "aed3cca5fd9f95288c476bb37f28f1a8093d3461",
@@ -271,5 +271,12 @@
     ],
     "unchanged_runtime_and_tests": true,
     "version_changed": false
+  },
+  "release_update": {
+    "base_release_tag": "v0.1.2",
+    "version": "0.1.3",
+    "runtime_and_test_sources_unchanged": true,
+    "distribution": "source-only",
+    "third_party_rights": "Go and x/sys LICENSE and PATENTS retained in 项目文档/third_party and Build restore map"
   }
 }

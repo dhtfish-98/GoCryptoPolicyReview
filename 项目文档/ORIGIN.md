@@ -26,12 +26,21 @@ runtime source is vendored. Original dependency notices accompany binary
 distributions. The CLI is local and read-only after build.
 
 Local build, tests and measured install results are in `VALIDATION.md` and the
-engineering evidence report. Remote CI/publication, actual source/runtime
-authenticity, human review/rights and applicant identity/organization/CVP
-admission remain `OPEN` until independently evidenced.
+engineering evidence report. Exact-commit CI and release evidence must be
+checked for each version; earlier pending statements do not describe the
+published v0.1.2 release. Actual source/runtime authenticity beyond the
+measured artifact, independent human review/rights and applicant
+identity/organization/CVP admission remain `OPEN` until independently evidenced.
 
 New implementation author: dhtfish98. This attribution applies to the new project implementation; original sources, licenses and third-party notices retain their authors. Automated checks do not establish independent human review or CVP eligibility.
 
 ## Current distribution and reference boundary
 
-New analyzer source and native executables are distributed. Executables contain Go standard-library and x/sys code; the offline bundle contains exact x/sys source. Their original licenses and patent-grant documents remain. gosec is reference-only. New implementation author and maintainer: dhtfish98. Source identities and bounded research facts above remain provenance, not an assertion that those authors wrote or endorsed the new runtime.
+The v0.1.3 release distributes analyzer source only. The historical v0.1.2
+release also offered native executables and an offline x/sys bundle; those
+artifacts contain original Go/x-sys material and retain its licenses and
+patent-grant documents. Those documents remain in this source release for
+downstream builds. gosec is reference-only. New implementation author and
+maintainer: dhtfish98. Source identities and bounded research facts above
+remain provenance, not an assertion that those authors wrote or endorsed the
+new runtime.

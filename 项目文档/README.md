@@ -3,7 +3,9 @@
 # GoCryptoPolicyReview
 
 
-New implementation author: **dhtfish98**. Current project version: **0.1.2**.
+New implementation author: **dhtfish98**. Current project version: **0.1.3**.
+This version is a source-only release. The v0.1.2 binaries and offline
+dependency archive are historical artifacts of that earlier version.
 
 Offline, bounded review of explicitly supplied Go source bytes. A new analyzer
 uses Go's real scanner/parser, lexical AST bindings and `go/constant`; it does
@@ -29,10 +31,10 @@ GOTOOLCHAIN=local GOPROXY=off GOSUMDB=off GOWORK=off GOFLAGS=-mod=readonly CGO_E
 ./dist/gocrypto-policy-review --go-minor 26 --tls-role server --tls-defaults standard --crypto-random standard -- examples/default-review.go.txt
 ```
 
-`go mod download` above obtains this analyzer's pinned, trusted Unix library for
-its build. It is never run on a checked project. An offline dependency archive
-with a local Go module proxy is supplied beside measured artifacts; see
-`VALIDATION.md`. Prebuilt binaries require no Go toolchain or module cache.
+`go mod download` above obtains this analyzer's pinned Unix library for
+its build. It is never run on a checked project. The historical v0.1.2 release
+also supplied an offline dependency archive and prebuilt binaries; the current
+source-only release does not include those artifacts. See `VALIDATION.md`.
 Flags precede file arguments. `--max-file-bytes` can lower the byte cap.
 `--help` prints ordinary help; every other outcome prints one JSON report.
 
@@ -46,7 +48,7 @@ Passing an AST rule does not prove that a program builds or that a path runs.
 
 Library callers use `Review([][]byte{source}, Options{}, DefaultLimits())`.
 The source module identity is `github.com/dhtfish-98/GoCryptoPolicyReview`;
-remote publication and remote installation availability require separate evidence.
+remote publication and installation require exact-version evidence.
 Input slices are not modified. `Limits` must be positive and may only lower
 defaults; the report cap is at least 2048 bytes, including its final newline.
 Invalid options are replaced with a fixed error report, without echoing them.
@@ -152,8 +154,10 @@ rewrite. No upstream runtime is vendored or invoked. Mature Go standard
 library code and the pinned Unix syscall library are separate dependencies.
 
 New implementation author: dhtfish98. Original Go/x-sys license and patent-grant
-notices accompany the actual linked and offline dependency materials in
-`third_party`. gosec is a fixed design reference only. Human ownership/review, applicant identity/organization, CVP
-admission, remote publication and remote CI are not established by this local
-artifact. Defensive topic fit is conditional on authorized source review.
+notices are preserved in `项目文档/third_party` and restored to `third_party`
+in the Build stage for downstream binaries. gosec is a fixed design reference
+only. Human ownership/review, applicant identity/organization and CVP
+admission are not established by this local artifact. Publication and CI
+status must be checked against the exact version. Defensive topic fit is
+conditional on authorized source review.
 No project count or passing test implies application approval.
